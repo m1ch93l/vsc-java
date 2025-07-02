@@ -3,8 +3,8 @@ public class App {
         int number = 0;
 
         while (number < 5) {
-        System.out.println(number);
-        number++;
+            System.out.println(number);
+            number++;
         }
         System.out.println("Loop finished.");
 
@@ -13,5 +13,22 @@ public class App {
         //     number++;
         // } while (number < 5);
         // System.out.println("Loop finished.");
+
+        // while (number < 10) {
+        //     System.out.println(number);
+        //     number++;
+        //     if (number == 4) {
+        //         break;
+        //     }
+        // }
+
+        // while (number < 10) {
+        //     if (number == 4) {
+        //         number++;
+        //         continue;
+        //     }
+        //     System.out.println(number);
+        //     number++;
+        // }
     }
 }
