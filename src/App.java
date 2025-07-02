@@ -14,5 +14,10 @@ public class App {
         //         System.out.println("---Inner: " + j); // Executes 6 times (2 * 3)
         //     }
         // }
+
+        // String[] colors = { "Red", "Green", "Blue", "Yellow", "Purple" };
+        // for (String i : colors) {
+        //     System.out.println(i);
+        // }
     }
 }
