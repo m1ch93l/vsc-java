@@ -25,4 +25,5 @@ A simple project to practice writing Java code.
    ```sh
    cat extensions.txt | xargs -L 1 code --install-extension
    ```
+- Download and Install java JDK [jdk](https://www.oracle.com/java/technologies/downloads/#jdk24-windows) on your local environment.
  
