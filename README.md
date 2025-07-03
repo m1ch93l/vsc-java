@@ -26,4 +26,11 @@ A simple project to practice writing Java code.
    cat extensions.txt | xargs -L 1 code --install-extension
    ```
 - Download and Install java JDK [jdk](https://www.oracle.com/java/technologies/downloads/#jdk24-windows) on your local environment.
- 
+
+## Installation
+To get started with this project, follow these steps:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/m1ch93l/vsc-java.git
+   ```
+2. Open the project in Visual Studio Code.
