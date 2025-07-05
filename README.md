@@ -21,9 +21,13 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 A simple project to practice writing Java code.
 
-- Install extensions.txt to your VSCode extensions list
-   ```sh
-   cat extensions.txt | xargs -L 1 code --install-extension
+- Install extensions.txt to your VSCode extensions list using the following command: For Windows PowerShell:
+   ```powershell
+   Get-Content extensions.txt | ForEach-Object { code --install-extension $_ }   
+   ```
+   For Windows Command Line:
+   ```cmd
+   Get-Content extensions.txt | ForEach-Object { code --install-extension $_ }
    ```
 - Download and Install java JDK [jdk](https://www.oracle.com/java/technologies/downloads/#jdk24-windows) on your local environment.
 
