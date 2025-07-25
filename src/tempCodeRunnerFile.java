@@ -48,7 +48,7 @@ public class App {
         for (int i = 0; i < colors.length; i++) {
             if (colors[i].equalsIgnoreCase("blue")) {
                 System.out.println("Found blue at index " + i);
-                break;
+                // break;
             }
         }
     }
