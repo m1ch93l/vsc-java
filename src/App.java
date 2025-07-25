@@ -65,8 +65,9 @@ class HomePage extends JFrame {
     public HomePage() {
         super("Home Page");
         
-        // Add a welcome message to the home page
-        add(new JLabel("Welcome to the Home Page!"), BorderLayout.CENTER);
+        // Add a welcome message to the home page and center it
+        JLabel welcomeLabel = new JLabel("Welcome to the Home Page!", SwingConstants.CENTER);
+        add(welcomeLabel, BorderLayout.CENTER);
         
         // Set the size and properties of the home page window
         setSize(300, 250);
