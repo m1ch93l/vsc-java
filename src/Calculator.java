@@ -1,7 +1,9 @@
 public class Calculator {
-    public int add(int a, int b) {
-        return a + b;
-    }
+    // In Calculator.java on the 'feature/calculator' branch
+public int add(int a, int b) {
+    // A different comment to ensure conflict
+    return a + b;
+}
 
     public int subtract(int a, int b) {
         return a - b;
