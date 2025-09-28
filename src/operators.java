@@ -13,5 +13,6 @@ public class operators {
         int y = 3;
         System.out.println(x > y);
         System.out.println(x > 3 && x < 10);
+        System.out.println(x > 3 || x < 10);
     }
 }
