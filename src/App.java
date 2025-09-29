@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
+        // default syntax
         int day = 4;
         switch (day) {
             case 1:
@@ -26,7 +27,7 @@ public class App {
             default:
                 System.out.println("Not match to anyone");
         }
-
+        // short
         int assignDay = 5;
         switch (assignDay) {
             case 1 -> System.out.println("Monday");
