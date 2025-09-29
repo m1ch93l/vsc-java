@@ -1,6 +1,6 @@
 public class variables_datatypes {
     public static void main(String[] args) {
-        String text = "Michael B. Banaria";
+        String text = "Juan Dela Cruz";
         int number = 100;
         float decimal = 99.9f;
         char single_character = 'M';
